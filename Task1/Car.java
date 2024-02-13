@@ -17,6 +17,8 @@ public class Car {
     private List<String> features;
 
     // Constructor
+    public Car() {
+    }
 
     public Car(String make, String model, int year, String color, String engine, String transmission, 
                String fuelType, int mileage, String vin, double price, int ownerId, List<String> features) {

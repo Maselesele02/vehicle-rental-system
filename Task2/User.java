@@ -10,6 +10,8 @@ public class User {
     private String rsaId;
 
     // Constructor
+    public User() {
+    }
 
     public User(Long id, String firstName, String lastName, LocalDate dateOfBirth, String rsaId) {
         this.id = id;
