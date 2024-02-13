@@ -16,10 +16,7 @@ public class Car {
     private int ownerId;
     private List<String> features;
 
-    // Constructors
-    public Car() {
-        // Default constructor
-    }
+    // Constructor
 
     public Car(String make, String model, int year, String color, String engine, String transmission, 
                String fuelType, int mileage, String vin, double price, int ownerId, List<String> features) {
@@ -134,19 +131,5 @@ public class Car {
 
     public void setFeatures(List<String> features) {
         this.features = features;
-    }
-
-    @override
-    public String to String(){
-        return "make=" + make +
-               ", model='" + model + '\'' +
-               ", year='" + year + '\'' +
-               ", color='" + color + '\'' +
-               ", engine='" + engine + '\'' +
-               ", transmission='" + transmission + '\'' +
-               ", fuelType='" + fuelType + '\'' +
-               ", vin='" + vin + '\'' +
-               ", ownerId='" + ownerId + '\'' +
-               ", features='" + features + '\'' +
     }
 }
