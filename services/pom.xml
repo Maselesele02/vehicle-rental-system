@@ -13,7 +13,16 @@
   <packaging>pom</packaging>
       
     
-  <!-- Define common configurations, properties, and dependencies here -->
+  <!--  common configurations, properties, and dependencies  -->
+  <!-- Spring Boot dependency -->
+<dependencies>
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-web</artifactId>
+        <version>2.7.18</version>
+    </dependency>
+</dependencies>
+
       
     
   <modules>
@@ -27,3 +36,4 @@
       
 
 </project>
+

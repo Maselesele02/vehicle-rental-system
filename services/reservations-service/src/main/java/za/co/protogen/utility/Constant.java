@@ -33,4 +33,8 @@ public class Constant {
         reservations.add(reservation2);
         // Add more reservations as needed
     }
+    public static List<Reservation> getReservations() {
+        return reservations;
+    }
+
 }

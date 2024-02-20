@@ -29,4 +29,7 @@ public class Constant {
         users.add(user2);
         // Add more users as needed
     }
+     public static List<User> getUsers() {
+        return users;
+    }
 }
